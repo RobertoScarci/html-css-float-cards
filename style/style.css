@@ -1,0 +1,37 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main{
+   text-align: center;
+   margin: 0 auto;
+   padding: 4rem;
+}
+
+#title{
+    padding-bottom: 4rem;
+    color: deeppink;
+}
+
+p{
+    padding-bottom: 3rem;
+}
+
+#team .colonne-team .colonne{
+    float: left;
+    margin: 2rem 1%;
+    width: calc(100% / 4);
+    height: 150px;
+    border: 2px solid black;
+}
+
